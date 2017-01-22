@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="col-md-6 col-md-offset-3">
+        <table id="myTable" class="table table-bordered">
+          <tr>
+            <td id="cell1" class="cellStyle"></td>
+            <td id="cell2" class="cellStyle"></td>
+            <td id="cell3" class="cellStyle"></td>
+          </tr>
+          <tr>
+            <td id="cell4" class="cellStyle"></td>
+            <td id="cell5" class="cellStyle"></td>
+            <td id="cell6" class="cellStyle"></td>
+          </tr>
+          <tr>
+            <td id="cell7" class="cellStyle"></td>
+            <td id="cell8" class="cellStyle"></td>
+            <td id="cell9" class="cellStyle"></td>
+          </tr>
+        </table>
+      </div>
+      <div>
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h4 class="modal-title" id="myModalLabel">Pick your symbol</h4>
+              </div>
+              <div class="modal-body">
+              Please choose between nought (O) and cross (X).
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal" id="noughtButton">O</button>
+                <button type="button" class="btn btn-default" data-dismiss="modal" id="crossButton">X</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- the current version of Bootstrap's (3.3.6) javascript - used for the modal - requires jQuery to be lower than version 3, so it is using an old version of jQuery: 2.2.4 -->
+    <script   src="https://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+  </body>
+</html>

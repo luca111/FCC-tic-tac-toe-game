@@ -1,0 +1,16 @@
+#myTable {
+  width: 24em;
+  height: 24em;
+  margin: 6em auto auto auto;
+  table-layout: fixed;
+}
+
+#cell1, #cell2, #cell3, #cell4, #cell5, #cell6, #cell7, #cell8, #cell9 {
+  background-color: black;
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+  height: 8em;
+  width: 8em;
+  padding: 0;
+}
